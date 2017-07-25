@@ -17,7 +17,7 @@ def customCallback(client, userdata, message):
 # Init AWSIoTMQTTClient
 myAWSIoTMQTTClient = None
 myAWSIoTMQTTClient = AWSIoTMQTTClient("basicPubSub")
-myAWSIoTMQTTClient.configureEndpoint("a2exf2ut0yar8e.iot.us-east-1.amazonaws.com", 8883)
+myAWSIoTMQTTClient.configureEndpoint("xxxxxx.iot.us-east-1.amazonaws.com", 8883)
 #myAWSIoTMQTTClient.configureCredentials(rootCAPath, privateKeyPath, certificatePath)
 myAWSIoTMQTTClient.configureCredentials("root-CA.crt", "Atul-pi3.private.key", "Atul-pi3.cert.pem")
 
