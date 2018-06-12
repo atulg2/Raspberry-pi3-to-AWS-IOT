@@ -4,7 +4,7 @@ A Sample Python script for connecting DHT11 temperature and humidity sensor on R
 
 The script uses MQTT Library from AWS IOT Python SDK to send and recieve data between pi and AWS IOT platform.
 
-ToDo: Data from AWS IOT platform can be then sent over to DynamoDB (or similiar) through to some visulization layer like AWS QuickSight.
+ToDo: Data from AWS IOT platform can be then sent over to DynamoDB (or similiar) through to some visulization layer like AWS QuickSight and the likes
 
 
 
